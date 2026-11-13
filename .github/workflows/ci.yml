@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Test & check (Node.js ${{ matrix.node-version }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node-version: [20, 22]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Unit, workflow and Code-node tests
+        run: npm test
+      - name: Validate workflow.json (sync, credentials, secrets, sandbox gates)
+        run: npm run check
+      - name: Verify workflow.json is built from src/ (no drift)
+        run: |
+          npm run build
+          git diff --exit-code -- workflow.json
