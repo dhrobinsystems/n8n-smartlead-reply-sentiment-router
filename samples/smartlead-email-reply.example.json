@@ -1,0 +1,14 @@
+{
+  "event_type": "EMAIL_REPLY",
+  "from_email": "sender@outreach.example.net",
+  "to_email": "jane.doe@example.com",
+  "to_name": "Jane Doe",
+  "subject": "Re: Quick question about your outbound stack",
+  "time_replied": "2026-11-12T15:04:05.000Z",
+  "reply_body": "<div>Hi,<br><br>Sounds interesting - happy to chat. How about Tuesday at 2pm? Send over a calendar invite.<br><br>Best,<br>Jane</div><div><br></div><div>On Mon, Nov 10, 2026 at 9:00 AM Sales Rep &lt;sender@outreach.example.net&gt; wrote:</div><blockquote>&gt; Hi Jane, quick question about your outbound stack...</blockquote>",
+  "preview_text": "Sounds interesting - happy to chat. How about Tuesday at 2pm?",
+  "campaign_name": "Q4 RevOps Outreach (Sample)",
+  "campaign_id": 12345,
+  "client_id": null,
+  "sequence_number": 2
+}

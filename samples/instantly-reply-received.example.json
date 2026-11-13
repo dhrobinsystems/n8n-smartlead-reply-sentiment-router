@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-11-12T17:45:11.000Z",
+  "event_type": "reply_received",
+  "workspace": "00000000-0000-4000-8000-000000000001",
+  "campaign_id": "00000000-0000-4000-8000-000000000002",
+  "campaign_name": "Sample Instantly Campaign",
+  "lead_email": "alex.placeholder@example.net",
+  "email_account": "sender@outreach.example.net",
+  "unibox_url": "https://app.instantly.ai/app/unibox?thread_search=example",
+  "step": 1,
+  "variant": 1,
+  "reply_subject": "Re: Partnership idea",
+  "reply_text": "Thanks for reaching out, but we already use a similar tool and it's not a priority this quarter.\n\n-- \nAlex Placeholder\nHead of Sales, Example Co\n+1 555 010 0199",
+  "reply_text_snippet": "Thanks for reaching out, but we already use a similar tool",
+  "first_name": "Alex",
+  "last_name": "Placeholder",
+  "company_name": "Example Co"
+}

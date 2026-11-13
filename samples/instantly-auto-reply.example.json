@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-11-12T18:00:00.000Z",
+  "event_type": "auto_reply_received",
+  "workspace": "00000000-0000-4000-8000-000000000001",
+  "campaign_id": "00000000-0000-4000-8000-000000000002",
+  "campaign_name": "Sample Instantly Campaign",
+  "lead_email": "sam.testperson@example.com",
+  "reply_subject": "Automatic reply: Partnership idea",
+  "reply_text": "I am currently out of the office with limited access to email and will be back on Monday."
+}

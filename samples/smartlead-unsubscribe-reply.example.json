@@ -1,0 +1,13 @@
+{
+  "event_type": "EMAIL_REPLY",
+  "from_email": "sender@outreach.example.net",
+  "to_email": "john.sample@example.org",
+  "to_name": "John Sample",
+  "subject": "Re: Following up",
+  "time_replied": "2026-11-12T16:20:00.000Z",
+  "reply_body": "Please remove me from your list and stop emailing me.\n\nOn Tue, Nov 11, 2026 at 10:00 AM Sales Rep <sender@outreach.example.net> wrote:\n> Just following up on my last note...",
+  "preview_text": "Please remove me from your list and stop emailing me.",
+  "campaign_name": "Q4 RevOps Outreach (Sample)",
+  "campaign_id": 12345,
+  "sequence_number": 3
+}
