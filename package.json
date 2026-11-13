@@ -1,0 +1,38 @@
+{
+  "name": "n8n-smartlead-reply-sentiment-router",
+  "version": "1.0.0",
+  "description": "n8n workflow + companion Node.js helpers that classify Smartlead/Instantly cold-email replies (positive, neutral, objection, out-of-office, unsubscribe), update HubSpot lead status and timeline notes, and route hot leads to the owner via Slack or SMS.",
+  "private": true,
+  "license": "MIT",
+  "author": "DH Robin <https://dhrobinsystems.com> (dhRobin Systems)",
+  "homepage": "https://github.com/dhrobinsystems/n8n-smartlead-reply-sentiment-router#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhrobinsystems/n8n-smartlead-reply-sentiment-router.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dhrobinsystems/n8n-smartlead-reply-sentiment-router/issues"
+  },
+  "keywords": [
+    "n8n",
+    "smartlead",
+    "instantly",
+    "cold-email",
+    "reply-classification",
+    "sentiment-analysis",
+    "hubspot",
+    "slack",
+    "twilio",
+    "revops"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "main": "src/sentimentParser.js",
+  "scripts": {
+    "test": "node --test",
+    "build": "node scripts/build-workflow.js",
+    "check": "node scripts/build-workflow.js --check",
+    "classify": "node scripts/classify-sample.js"
+  }
+}
