@@ -43,6 +43,8 @@ Every processed reply also writes `last_reply_sentiment`, `last_reply_sentiment_
 
 ## Flow diagram
 
+![Workflow Overview](assets/workflow-overview.png)
+
 ```mermaid
 flowchart TD
     WH[Reply Webhook<br/>Smartlead EMAIL_REPLY / Instantly reply_received] --> CFG[Load Config<br/>SANDBOX_MODE default true]
